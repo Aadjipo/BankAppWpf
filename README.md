@@ -1,65 +1,65 @@
-# 💳 Aplikacja Bankowa (WPF)
+# 💳 Bank Application (WPF)
 
-Prosty symulator systemu bankowego z graficznym interfejsem użytkownika w technologii WPF.  
-Aplikacja umożliwia tworzenie kont bankowych, logowanie za pomocą numeru konta i PIN-u, zarządzanie środkami oraz przeglądanie historii transakcji.
-
----
-
-## 🧰 Funkcje
-
-- ✅ Tworzenie kont z unikalnym numerem i PIN-em
-- 🔐 Logowanie do konta
-- 💰 Wpłaty i wypłaty środków
-- 📜 Historia transakcji
-- 💾 Zapisywanie i wczytywanie danych z pliku JSON
-- 🖥️ Interfejs graficzny WPF
+A simple banking system simulator with a graphical user interface built using WPF.  
+The application allows users to create bank accounts, log in using an account number and PIN, manage funds, and view transaction history.
 
 ---
 
-## 🛠️ Technologie
+## 🧰 Features
 
-- **Język:** C# (.NET 9)
+- ✅ Create accounts with a unique number and PIN
+- 🔐 Account login
+- 💰 Deposit and withdraw money
+- 📜 Transaction history
+- 💾 Save and load data from a JSON file
+- 🖥️ WPF graphical interface
+
+---
+
+## 🛠️ Technologies
+
+- **Language:** C# (.NET 9)
 - **UI:** WPF (Windows Presentation Foundation)
-- **Serializacja:** `System.Text.Json`
-- **Przechowywanie danych:** lokalny plik `Accounts.json`
+- **Serialization:** `System.Text.Json`
+- **Data storage:** Local `Accounts.json` file
 
 ---
 
-## 🚀 Jak uruchomić projekt
+## 🚀 How to Run the Project
 
-1. **Klonuj repozytorium:**
+1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/twoje-repozytorium/bank-app-wpf.git
+   git clone https://github.com/your-repository/bank-app-wpf.git
    ```
 
-2. **Otwórz projekt w Visual Studio** (zalecana wersja: VS 2022 lub nowsza)
+2. **Open the project in Visual Studio** (recommended version: VS 2022 or later)
 
-3. **Zbuduj i uruchom aplikację:**
+3. **Build and run the application:**
 
-   - Skrót: `Ctrl + F5`  
-   - lub przycisk ▶️ "Start bez debugowania"
+   - Shortcut: `Ctrl + F5`  
+   - or click ▶️ "Start without debugging"
 
-4. **Lub poprostu otwórz plik .exe z folderu ze zbudowaną wersją plikacji**
-
----
-
-## 🔮 Możliwości rozbudowy
-
-- 📊 Wykresy i statystyki konta
-- 🧑‍💼 Panel administratora (zarządzanie kontami)
-- 🔐 Bezpieczne logowanie (haszowanie PIN-ów)
-- 📦 Baza danych (MySQL, SQLite)
+4. **Or simply open the `.exe` file from the build output folder**
 
 ---
 
-## 👨‍💻 Autor
+## 🔮 Future Improvements
 
-Projekt stworzony do nauki C# i WPF.  
-Masz pomysły lub chcesz pomóc rozwinąć aplikację? Chętnie przyjmę sugestie lub pull requesty!
+- 📊 Account charts and statistics
+- 🧑‍💼 Admin panel (account management)
+- 🔐 Secure login (PIN hashing)
+- 📦 Database support (MySQL, SQLite)
 
 ---
 
-## 📃 Licencja
+## 👨‍💻 Author
 
-Ten projekt jest dostępny na licencji MIT.
+This project was created for learning C# and WPF.  
+Have ideas or want to contribute? Suggestions and pull requests are welcome!
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License.
