@@ -25,25 +25,6 @@ The application allows users to create bank accounts, log in using an account nu
 
 ---
 
-## 🚀 How to Run the Project
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-repository/bank-app-wpf.git
-   ```
-
-2. **Open the project in Visual Studio** (recommended version: VS 2022 or later)
-
-3. **Build and run the application:**
-
-   - Shortcut: `Ctrl + F5`  
-   - or click ▶️ "Start without debugging"
-
-4. **Or simply open the `.exe` file from the build output folder**
-
----
-
 ## 🔮 Future Improvements
 
 - 📊 Account charts and statistics
