@@ -13,13 +13,12 @@ Aplikacja umożliwia tworzenie kont bankowych, logowanie za pomocą numeru konta
 - 📜 Historia transakcji
 - 💾 Zapisywanie i wczytywanie danych z pliku JSON
 - 🖥️ Interfejs graficzny WPF
-- 🔧 Możliwość rozbudowy o bazę danych (np. MySQL)
 
 ---
 
 ## 🛠️ Technologie
 
-- **Język:** C# (.NET 6/7)
+- **Język:** C# (.NET 9)
 - **UI:** WPF (Windows Presentation Foundation)
 - **Serializacja:** `System.Text.Json`
 - **Przechowywanie danych:** lokalny plik `Accounts.json`
@@ -41,27 +40,7 @@ Aplikacja umożliwia tworzenie kont bankowych, logowanie za pomocą numeru konta
    - Skrót: `Ctrl + F5`  
    - lub przycisk ▶️ "Start bez debugowania"
 
----
-
-## 📁 Struktura projektu
-
-```
-BankAppWPF/
-├── App.xaml
-├── MainWindow.xaml
-├── Views/
-│   ├── LoginWindow.xaml
-│   ├── CreateAccountWindow.xaml
-│   └── AccountWindow.xaml
-├── Models/
-│   ├── BankAccount.cs
-│   └── Transaction.cs
-├── Services/
-│   └── BankDataService.cs
-├── Data/
-│   └── Accounts.json
-└── README.md
-```
+4. **Lub poprostu otwórz plik .exe z folderu ze zbudowaną wersją plikacji**
 
 ---
 
